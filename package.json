@@ -1,6 +1,6 @@
 {
-  "name": "template-next-app",
-  "version": "0.1.0",
+  "name": "alperreha-videos",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,8 +12,11 @@
     "deploy": "node deploy.mjs"
   },
   "dependencies": {
+    "@codesandbox/sandpack-react": "^2.19.11",
+    "@codesandbox/sandpack-themes": "^2.0.21",
+    "@radix-ui/themes": "^3.2.0",
     "@remotion/bundler": "^4.0.0",
-    "@remotion/cli": "^4.0.0",
+    "@remotion/cli": "^4.0.258",
     "@remotion/google-fonts": "^4.0.0",
     "@remotion/lambda": "^4.0.0",
     "@remotion/paths": "^4.0.0",
@@ -28,14 +31,18 @@
   "devDependencies": {
     "@remotion/eslint-config": "^4.0.0",
     "@remotion/eslint-plugin": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.3",
     "@types/node": "20.12.14",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "@types/web": "0.0.166",
+    "autoprefixer": "^10.4.20",
     "dotenv": "16.0.3",
     "eslint": "8.56.0",
     "eslint-config-next": "15.0.4",
-    "typescript": "5.5.4",
-    "prettier": "3.3.3"
+    "postcss": "^8.5.1",
+    "prettier": "3.3.3",
+    "tailwindcss": "^4.0.3",
+    "typescript": "5.5.4"
   }
 }

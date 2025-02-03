@@ -1,9 +1,13 @@
 import "../styles/global.css";
+import "@radix-ui/themes/styles.css";
+
+import { Theme } from "@radix-ui/themes";
+import AppShell from "@/components/AppShell/AppShell";
 import { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
-  title: "Remotion and Next.js",
-  description: "Remotion and Next.js",
+  title: "videos - @alperreha",
+  description: "videos and sandpack playground of mine - @alperreha",
 };
 
 export const viewport: Viewport = {
@@ -21,7 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Theme>
+          <AppShell>{children}</AppShell>
+        </Theme>
+      </body>
     </html>
   );
 }
