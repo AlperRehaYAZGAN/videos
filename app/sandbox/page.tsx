@@ -22,7 +22,7 @@ export default function SandboxPage() {
           },
         }}
         files={{
-          "/App.js": `import React from 'react';
+          "/App.tsx": `import React from 'react';
       
       export default function App() {
         return (
